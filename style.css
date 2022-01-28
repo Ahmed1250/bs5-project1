@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, #a517ba, #5f1762);
+    padding: 0 !important;
+}
+.navbar-brand img{
+    height: 40px;
+    padding-left: 20px;
+}
+.navbar-nav li{
+    padding: 0 20px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 20px;
+}
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+/* ------------- banner section -------------- */
+.banner{
+    background-image: linear-gradient(to right, #a517ba, #5f1762);
+    color: #fff;
+    padding-top: 5%;
+}
+.promo-title{
+    font-size: 30px;
+    font-weight: 600;
+}
+.play-btn{
+    width: 50px;
+    margin: 20px;
+}
+.banner p{
+    text-transform: capitalize;
+}
+.banner a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.bottom-img{
+    width: 100%;
+}
+/* ------------- service section --------------------- */
+.service{
+    margin:70px 0;
+}
+.service-img{
+    width: 100px;
+    height: 100px;
+}
+.services h4{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 15px;
+}
+.services{
+    padding: 20px;
+}
+.title{
+    margin:30px 0;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.title::before{
+    content: "";
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: rgb(143, 79, 68);
+    transform: translateY(65px);
+}
+.title::after{
+    content: "";
+    height: 15px;
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 40px;
+    background-color: rgb(143, 79, 68);
+    transform: translateY(10px);
+}
+/* ----------------- about us section ------------------ */
+.about-us{
+    margin: 50px 0;
+}
+.about-title{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 15px 0;
+    margin-left: 30px;
+}
+.about-details ul li{
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+.about-details ul{
+    margin-left: 30px;
+}
+/* ---------------- testimonial section ------------------- */
+.testimonial{
+    margin: 80px 0;
+}
+.testimonials{
+    border-left: 5px solid #e7319b;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonials img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0;
+}
+.testimonials p{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 15px;
+}
+/* --------------- social media -------------- */
+.social-media{
+    margin: 50px 0;
+}
+.social-media h2{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.social-media-icons a img{
+    width: 50px;
+    transition: transform 1s;
+}
+.social-media-icons a img:hover{
+    transform: translateY(-15px);
+}
+/* ------------ footer section -------------- */
+.footer{
+    background-image: linear-gradient(to right, #a517ba, #5f1762);
+    color: #fff;
+}
+.footer-img{
+    width: 100%;
+}
+.footer-box{
+    padding: 20px;
+}
+.footer-box img{
+    width: 130px;
+    margin-bottom: 20px;
+}
+.footer-box .fa{
+    margin-right: 8px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 7px;
+    background-image: linear-gradient(to right, #a517ba, #5f1762);
+}
+.footer-box .form-control{
+    border: none;
+    box-shadow: none !important; 
+    border-radius: none;
+    margin-top: 25px;
+    max-width: 250px;
+    margin: 0 auto;
+}
+.footer-box .btn-primary{
+    border: none;
+    box-shadow: none !important;
+    border-radius: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-image: linear-gradient(to right, #a517ba, #5f1762);
+}
+hr{
+    color: #fff;
+    height: 5px;
+}
+.copyright{
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: cursive;
+    padding-bottom: 20px;
+}
